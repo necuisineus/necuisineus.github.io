@@ -48,7 +48,8 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* Changed from "Helvetica Neue", Helvetica, Arial, sans-serif */
+  font-family: "EB Garamond", Garamond, serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -148,9 +149,10 @@ abbr[title] {
 }
 
 /* Code */
+/* Replacing monospaced fonts with EB Garamond (if you wish to keep monospace, leave these unchanged) */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: "EB Garamond", Garamond, serif;
 }
 code {
   padding: .25em .5em;
@@ -190,7 +192,7 @@ pre code {
 
 /* Gist via GitHub Pages */
 .gist .gist-file {
-  font-family: Menlo, Monaco, "Courier New", monospace !important;
+  font-family: "EB Garamond", Garamond, serif !important;
 }
 .gist .markdown-body {
   padding: 15px;
@@ -389,7 +391,8 @@ tbody tr:nth-child(odd) th {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  /* Changed from "PT Sans", Helvetica, Arial, sans-serif */
+  font-family: "EB Garamond", Garamond, serif;
   color: #ccc;
   text-align: center;
 }
